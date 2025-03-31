@@ -1,0 +1,22 @@
+.navbar {
+   position: sticky;
+   padding: 0.75rem 1.5rem;
+   background-color: var(--theme);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .logo{
+   color: var(--white);
+   font-weight: 500;
+   font-size: 1rem;
+   margin: 0;
+ }
+ .link{
+    opacity: 0.8;
+    cursor: pointer;
+ }
+ .link:hover{
+    opacity: 1;
+    transition: all 0.3s ;
+ }
