@@ -1,3 +1,40 @@
+FinFolio - A Personal Finance Tracker
+
+💡 Built with React.js & Firebase, FinFolio helps users take control of their finances with:
+
+✅ Secure user authentication with email & Google sign-in
+✅ Real-time transaction tracking
+✅ Interactive pie charts for expense analysis
+✅ Income vs Expense visualization
+✅ CSV import/export functionality
+✅ Responsive design for all devices
+
+🛠️ Tech Stack:
+• React.js
+• Firebase (Authentication & Firestore)
+• Ant Design
+• Chart.js
+• CSS3 with modern animations
+
+🔑 Key Features:
+• Intuitive dashboard
+• Category-based expense tracking
+• Transaction history management
+• Data visualization
+• Secure data storage
+• CSV data handling
+
+
+🌐 Live Demo: https://finfolio.netlify.app
+
+🎥 Demo Video : https://youtu.be/f74ZZh-TKuo
+
+#WebDevelopment #ReactJS #Firebase #PersonalFinance #WebApp #Programming #JavaScript #FinTech #SoftwareDevelopment #TechProject
+
+Would love to hear your thoughts and feedback! 🙌
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
