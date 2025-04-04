@@ -1,22 +1,124 @@
 .navbar {
-   position: sticky;
-   padding: 0.75rem 1.5rem;
-   background-color: var(--theme);
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- .logo{
-   color: var(--white);
-   font-weight: 500;
-   font-size: 1rem;
-   margin: 0;
- }
- .link{
-    opacity: 0.8;
+    background: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.logo-icon {
+    font-size: 1.8rem;
+    color: var(--theme);
+    animation: pulse 2s infinite;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    background: linear-gradient(135deg, var(--theme), #40a9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    background: #f8f9fa;
+    border-radius: 50px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--theme);
+}
+
+.user-email {
+    color: #555;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.logout-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    border: 2px solid var(--theme);
+    border-radius: 50px;
+    background: transparent;
+    color: var(--theme);
+    font-weight: 600;
     cursor: pointer;
- }
- .link:hover{
-    opacity: 1;
-    transition: all 0.3s ;
- }
+    transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+    background: var(--theme);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logout-icon {
+    font-size: 1rem;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 0.8rem 1rem;
+    }
+
+    .user-email {
+        display: none;
+    }
+
+    .nav-right {
+        gap: 1rem;
+    }
+
+    .logout-button span {
+        display: none;
+    }
+
+    .logout-button {
+        padding: 0.5rem;
+    }
+
+    .logout-icon {
+        margin: 0;
+    }
+}

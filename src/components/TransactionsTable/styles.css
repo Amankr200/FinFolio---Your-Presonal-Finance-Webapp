@@ -1,0 +1,134 @@
+.transactions-container {
+    width: 96%;
+    padding: 2rem;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.type-filter {
+    min-width: 150px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sort-group {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.transactions-table {
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ant-table-wrapper {
+    width: 100%;
+}
+
+.table-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.csv-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    cursor: pointer;
+    background: white;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-blue {
+    background: #1890ff;
+    color: white;
+    border-color: #1890ff;
+}
+
+.btn-blue:hover {
+    background: #40a9ff;
+    border-color: #40a9ff;
+}
+
+.btn-delete {
+    background-color: #ff4d4f;
+    color: white;
+    border: 1px solid #ff4d4f;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-delete:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+}
+
+.import-options {
+    padding: 20px;
+    text-align: center;
+}
+
+.import-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.import-buttons .btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.import-buttons .btn-blue {
+    background: #1890ff;
+    color: white;
+    border: 1px solid #1890ff;
+}
+
+.import-buttons .btn:hover {
+    opacity: 0.8;
+}

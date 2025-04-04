@@ -169,7 +169,7 @@ const SignupSigninComponent = () => {
             {loginForm ? (
                 <div className="signup-wrapper">
                     <h2 className="title">
-                        Login On <span style={{ color: "var(--theme)" }}>Financely</span>
+                        Login On <span style={{ color: "var(--theme)" }}>FinFolio</span>
                     </h2>
                     <form>
 
@@ -200,7 +200,7 @@ const SignupSigninComponent = () => {
                     </form>
                 </div>) : (<div className="signup-wrapper">
                     <h2 className="title">
-                        Sign Up On <span style={{ color: "var(--theme)" }}>Financely</span>
+                        Sign Up On <span style={{ color: "var(--theme)" }}>FinFolio</span>
                     </h2>
                     <form>
                         <Input

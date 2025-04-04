@@ -1,0 +1,42 @@
+.charts-container {
+    margin: 1rem 0;
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+.charts-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.charts-row h2 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.chart-card {
+    width: 800px;
+    min-height: 00px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-card > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    max-height: 250px;
+}
+
+ 
